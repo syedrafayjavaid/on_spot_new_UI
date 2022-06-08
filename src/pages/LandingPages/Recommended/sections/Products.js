@@ -21,9 +21,6 @@ import axios from "axios";
 function Products() {
 
   const [products, setProducts] = useState([]);
-
-
-
   // Getting All the Products
   const getProducts = async () => {
     const email = localStorage.getItem("email");

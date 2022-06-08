@@ -15,12 +15,12 @@ Coded by www.creative-tim.com
 
 // @mui material components
 import Container from "@mui/material/Container";
-// import Grid from "@mui/material/Grid";
+import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
-// import MKTypography from "components/MKTypography";
+import MKTypography from "components/MKTypography";
 // import MKButton from "components/MKButton";
 
 // Material Kit 2 React examples
@@ -72,7 +72,7 @@ function Recommended() {
         }}
       >
         <Container>
-          {/* <Grid
+          <Grid
             container
             item
             xs={12}
@@ -91,33 +91,13 @@ function Recommended() {
                 },
               })}
             >
-              Work with an amazing design
+              Recommendation System
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              We&apos;re constantly trying to express ourselves and actualize our dreams. If you
-              have the opportunity to play this game
+
+              Products recommendation based on user past histroy showcases the products to the users which are similar to his/her interest
             </MKTypography>
-            <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
-              create account
-            </MKButton>
-            <MKTypography variant="h6" color="white" mt={8} mb={1}>
-              Find us on
-            </MKTypography>
-            <MKBox display="flex" justifyContent="center" alignItems="center">
-              <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
-                <i className="fab fa-facebook" />
-              </MKTypography>
-              <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
-                <i className="fab fa-instagram" />
-              </MKTypography>
-              <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
-                <i className="fab fa-twitter" />
-              </MKTypography>
-              <MKTypography component="a" variant="body1" color="white" href="#">
-                <i className="fab fa-google-plus" />
-              </MKTypography>
-            </MKBox>
-          </Grid> */}
+          </Grid>
         </Container>
       </MKBox>
       <Card

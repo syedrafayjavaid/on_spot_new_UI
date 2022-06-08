@@ -72,7 +72,7 @@ const routes = [
     ],
   },
   {
-    name: "Information",
+    name: "OnSpot Info",
     icon: <Icon>view_day</Icon>,
     collapse: [
       {
